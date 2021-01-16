@@ -1,0 +1,64 @@
+.projectsRandomizer {
+    background: url('../../images/randomizerbackground.jpeg')no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.projectsTierlist {
+  padding-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  background: url('../../images/tierlistbackgroundnem.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.projectsItemBuilder {
+  margin-top: 0rem;
+  padding-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  background: url('../../images/itembuilderbackground.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header {
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.project-wrapper {
+    margin-bottom: 5rem;
+  }
+
+  .project-wrapper__text {
+    text-align: center;
+}
+   
+
+.project-wrapper__text-title{
+      font-weight: bold;
+      margin-bottom: 1.8rem;
+}
+
+p > a {
+color: white;
+}

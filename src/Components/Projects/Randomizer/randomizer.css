@@ -1,0 +1,64 @@
+
+
+    .button {
+      background-color: rgba(78, 31, 121, 0.932);;
+      color: black;
+      border-width: 2px;
+      border-style: solid;
+      border-color: black;
+      margin: 3px;
+      font-weight: bold;
+      width: 4rem;
+      height: 2rem;
+      cursor: pointer;
+    }      
+    
+
+    
+      .button:hover {
+        -webkit-text-fill-color: white;
+        text-decoration: none;
+      }
+    
+
+      .buttonDivBanner {
+        text-align:center;
+        justify-content: center;
+      }
+    
+      .BuildList {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 1rem;
+        padding-top: 1rem;  
+      }
+  
+      .SingleBuild {
+        margin-top: 1rem; 
+        border-color: #272341;
+        border-style: solid;
+        border-width: 1px;
+        margin: .1rem;
+      }
+  
+      .SingleBuildList {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: rgba(78, 31, 121, 0.932);;
+        color: black;
+        font-weight: bold;
+      }
+  
+      .SingleBuildName {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: black;
+        font-size: larger;
+        background-color: #272341;
+      }
+
+
+      
+    
+  

@@ -1,0 +1,50 @@
+
+.navbar{
+    width: 100%;
+    min-height: 6vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .7s ease-in;
+  }
+  
+
+  .scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;  }
+
+
+
+  #nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style: none;
+   }
+#nav li {
+    float: left;
+  cursor: pointer;
+
+}
+
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style: none;
+    background-color: #080808b4;
+     }
+
+#nav li a {
+        display: block;
+        padding: 2px 5px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(246, 249, 250);
+        font-size: small;
+        border: 1px solid white;
+         }

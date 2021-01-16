@@ -1,0 +1,36 @@
+#about {
+    background: url('C:\Users\Joey\smitesociety\src\images\bellonaAbout.jpg'); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+
+}
+
+.header {
+    margin: 0px;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0rem;
+}
+
+.about-wrapper__info {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+    max-width: 50%;
+    margin-right: 0rem;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+}
+
+.about-wrapper__info-text {
+    text-align: left;
+}
+  
