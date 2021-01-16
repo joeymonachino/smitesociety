@@ -2,7 +2,7 @@
   "name": "smitesociety",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://joeymonachino.github.io/smitesociety/",
+  "homepage": "https://joeymonachino.github.io/smitesociety/",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.9",

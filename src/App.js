@@ -8,10 +8,11 @@ import {RandomizerProject, TierlistProject, ItemBuilderProject} from './Componen
 function App() {
   return (
     <div>
-    <Router basename='/'>
+    <Router>
     <Switch>
+      <Route path='/' component={LandingPage} exact />
       <Route path="/smitesociety" component={LandingPage} exact />
-      <Route path="/about" component={About} />
+      <Route path="/About" component={About} />
       <Route path="/Randomizer" component={RandomizerProject} />
       <Route path="/Tierlist" component={TierlistProject} />
       <Route path="/ItemBuilder" component={ItemBuilderProject} />
