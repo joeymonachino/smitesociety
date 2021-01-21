@@ -1,0 +1,56 @@
+.Tier-Container {
+    border: .1rem solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.Tier {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: .1rem solid black;
+    line-height: 4rem;
+}
+
+.Tier-Label {
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.836);
+    border: .1rem solid lightblue;
+    margin-right: .3rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Label {
+    font-weight: bolder;
+    font-size: x-large;
+    color: lightblue;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.GodPool {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.God {
+    margin: .1rem;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    font-weight: bold;
+    border: .1rem solid black;
+    background-color: rgba(173, 216, 230, 0.836);
+    color: black;
+    border: .1rem solid black;
+
+}
